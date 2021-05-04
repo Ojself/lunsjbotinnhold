@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 
-const EXTERNAL_API = "http://localhost:5000/today";
+const EXTERNAL_API = "https://lunsjbotki.herokuapp.com/menu/";
 const githubUrl = "https://github.com/Ojself/lunsjbot";
 
 console.log(githubUrl);
