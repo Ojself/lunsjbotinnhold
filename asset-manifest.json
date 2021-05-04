@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/lunsjbotinnhold/static/js/main.43e5c40c.chunk.js",
-    "main.js.map": "/lunsjbotinnhold/static/js/main.43e5c40c.chunk.js.map",
+    "main.js": "/lunsjbotinnhold/static/js/main.7b97bd01.chunk.js",
+    "main.js.map": "/lunsjbotinnhold/static/js/main.7b97bd01.chunk.js.map",
     "runtime-main.js": "/lunsjbotinnhold/static/js/runtime-main.f7354cea.js",
     "runtime-main.js.map": "/lunsjbotinnhold/static/js/runtime-main.f7354cea.js.map",
     "static/js/2.4e081a61.chunk.js": "/lunsjbotinnhold/static/js/2.4e081a61.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.f7354cea.js",
     "static/js/2.4e081a61.chunk.js",
-    "static/js/main.43e5c40c.chunk.js"
+    "static/js/main.7b97bd01.chunk.js"
   ]
 }
