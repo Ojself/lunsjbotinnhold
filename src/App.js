@@ -15,20 +15,16 @@ const Menu = ({ menu }) => {
             <h2>{d.name}</h2>
             <h4>Allergener</h4>
             {d.allergens.length ? (
-              d.allergens.map((n) => {
-                return <li key={n.name}>{n.name}</li>;
-              })
+              d.allergens.map((n) => <li key={n.name}>{n.name}</li>)
             ) : (
               <em> Intet oppgitt</em>
             )}
             <h4>Næringsinnhold</h4>
-            {d.nutrients.map((n) => {
-              return (
-                <li key={n.name}>
-                  {n.name} - {n.value} {n.code}
-                </li>
-              );
-            })}
+            {d.nutrients.map((n) => (
+              <li key={n.name}>
+                {n.name} - {n.value} {n.unit}
+              </li>
+            ))}
           </div>
         );
       })}
