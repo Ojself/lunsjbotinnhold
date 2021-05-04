@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/lunsjbotinnhold/static/js/main.776a91ae.chunk.js",
+    "main.js.map": "/lunsjbotinnhold/static/js/main.776a91ae.chunk.js.map",
+    "runtime-main.js": "/lunsjbotinnhold/static/js/runtime-main.f7354cea.js",
+    "runtime-main.js.map": "/lunsjbotinnhold/static/js/runtime-main.f7354cea.js.map",
+    "static/js/2.4e081a61.chunk.js": "/lunsjbotinnhold/static/js/2.4e081a61.chunk.js",
+    "static/js/2.4e081a61.chunk.js.map": "/lunsjbotinnhold/static/js/2.4e081a61.chunk.js.map",
+    "index.html": "/lunsjbotinnhold/index.html",
+    "static/js/2.4e081a61.chunk.js.LICENSE.txt": "/lunsjbotinnhold/static/js/2.4e081a61.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7354cea.js",
+    "static/js/2.4e081a61.chunk.js",
+    "static/js/main.776a91ae.chunk.js"
+  ]
+}
