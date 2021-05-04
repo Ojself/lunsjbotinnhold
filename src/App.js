@@ -49,7 +49,7 @@ const App = () => {
         console.warn(err);
         return;
       }
-      setMenu(result.data.todaysMenu);
+      setMenu(result.data.menu);
     };
     fetchMenu();
   }, []);
