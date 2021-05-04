@@ -61,8 +61,10 @@ const App = () => {
           Lunsjbot er <a href={githubUrl}>open source</a>
         </p>
       </header>
-      {loading || menu.length === 0 ? (
+      {loading ? (
         <p> Loading ... </p>
+      ) : (!menu || menu.length) === 0 ? (
+        <p>Something went wrong..</p>
       ) : (
         <Menu menu={menu} />
       )}
