@@ -1,10 +1,11 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
+import "./index.css";
 
 const EXTERNAL_API = "https://lunsjbotki.herokuapp.com/menu/";
 const githubUrl = "https://github.com/Ojself/lunsjbot";
 
-console.log(githubUrl);
+console.info(githubUrl);
 
 const Menu = ({ menu }) => {
   return (
@@ -58,7 +59,15 @@ const App = () => {
         </p>
       </header>
       {loading ? (
-        <p> Loading ... </p>
+        <p style={{ display: "inline" }}>
+          Loading
+          <span
+            style={{ display: "inline-block", marginLeft: "0.75rem" }}
+            className="rotating"
+          >
+            |
+          </span>
+        </p>
       ) : (!menu || menu.length) === 0 ? (
         <p>Something went wrong..</p>
       ) : (
